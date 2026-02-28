@@ -4,8 +4,8 @@ public class j102_stack_heap{
         // İlkel tip: doğrudan ana metodun Stack frame'inde tutulur.
         int number = 10;
 
-        // Pointer tipi: "data" degiskeni pointer olarak stack'tedir.
-        // new int[3] ile yaratılan [0, 0, 0] obbjesi ise Heap'tedir. 
+        // Referans tipi: "data" degiskeni pointer olarak stack'tedir.
+        // new int[3] ile yaratılan [0, 0, 0] objesi ise Heap'tedir. 
         int[] data = new int[3];
 
         // Metot çağrısı: Stack'te calculate için yeni bir üst katman(frame) açılır.

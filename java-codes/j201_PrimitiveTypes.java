@@ -6,7 +6,7 @@ public class j201_PrimitiveTypes{
         double piSayisi = 3.14159265359;
         boolean isMatematikZor = true;
         char harf = 'A';
-        float eSayisi = 2.71f;
+        float eSayisi = 2.71F;
         long galaksiSayisi = 2000000000L;
 
         // Integer Overflow (Tasma) Simulasyonu
