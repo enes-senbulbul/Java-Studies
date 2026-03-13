@@ -19,7 +19,7 @@ class Vektor2D{
 public class j401_OOP1{
     public static void main(String[] args){
 
-        Vektor2D v1;  // Sadece Stack'te referans olusturuyoruz. Heap'te henuz bir sey yok.
+        Vektor2D v1;  // Sadece Stack'te referans degisken olusturuyoruz. Heap'te henuz bir sey yok.
         v1 = new Vektor2D();    // Heap'te nesneyi olusturup referansa bagliyoruz. 
         //... Artik Heap'te 16+bytelik fiziksel bir Vektor2D nesnesi var.   
         
