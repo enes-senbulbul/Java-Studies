@@ -20,5 +20,7 @@ public class Lab23{
         double price = (25.4 + m2_price)*m2;
         if (price>=1000) price = price*0.9;
         System.out.printf("Total price: %.2f TL", price);
+
+        input.close();
     }
 }

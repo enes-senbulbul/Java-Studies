@@ -25,6 +25,7 @@ public class Lab21{
         double distance = Math.abs(x2-x1) + Math.abs(y2-y1);
         System.out.println("Manhattan Distance -> d = "+distance);
         
+        input.close();
         // String message = "Manhattan Distance -> d = " + distance;
         // JOptionPane.showMessageDialog(null, message);
     }

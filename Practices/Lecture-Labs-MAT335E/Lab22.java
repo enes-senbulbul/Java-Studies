@@ -13,5 +13,7 @@ public class Lab22{
         if(distance > 6) System.out.println("outside");
         else if(distance == 6) System.out.println("on");
         else System.out.println("inside");
+
+        input.close();
     }
 }
